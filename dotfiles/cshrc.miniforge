@@ -216,7 +216,7 @@ endif
 
 if ($?prompt) then
 
-  alias sc source ~/.cshrc
+  alias sc source ~/.cshrc.miniforge
 
   alias setprompt 'set prompt="(`hostname`) `basename $cwd` ! % "'
   alias cd 'cd \!*;setprompt; echo $cwd'
